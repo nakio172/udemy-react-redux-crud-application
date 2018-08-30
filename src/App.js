@@ -2,7 +2,10 @@ import React, { Component } from 'react';
 
 class App extends Component {
   render() {
-    return <div><h1>Hello, world!</h1></div>
+    const greeting = "Hi, Tom!";
+    const dom = <h1>{greeting}</h1>;
+    //return dom;
+    return <input type="text" onClick={() => {console.log("I am clicked!")}} />;
 
   }
 }
